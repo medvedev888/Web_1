@@ -1,0 +1,179 @@
+/* import Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("sources/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #002636;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  overflow: auto;
+}
+
+input {
+  padding: 10px;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 5px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header {
+  display: flex;
+  background: rgba(255, 255, 255, 0.45);
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: auto;
+  height: 100px;
+  position: relative;
+}
+
+.group {
+  position: absolute;
+  margin-top: 27px;
+  font-size: 40px;
+  left: 11%;
+}
+
+.name {
+  position: absolute;
+  margin-top: 27px;
+  left: 20%;
+  font-size: 20px;
+}
+
+.info p:nth-child(1) {
+  position: absolute;
+  margin-top: 36px;
+  font-size: 24px;
+  left: 50%;
+}
+
+.info p:nth-child(2) {
+  position: absolute;
+  margin-top: 36px;
+  font-size: 24px;
+  left: 80%;
+}
+
+#graph,
+#parameters,
+#table {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#graph {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.45);
+  display: inline-block;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  margin-left: 50px;
+}
+
+#canvas_graph_figures {
+  position: absolute;
+  right: 65px;
+}
+
+#parameters {
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.45);
+  width: 360px;
+  height: 250px;
+  position: relative;
+}
+
+#parameters p:nth-child(2) {
+  margin-bottom: 10px;
+}
+.selection {
+  margin-bottom: 10px;
+}
+
+.enter_X {
+  margin-right: 2px;
+}
+
+#selection_Y input[type="text"] {
+  background: rgba(0, 38, 54, 0);
+  width: 260px;
+  height: 26px;
+  border-radius: 30px;
+  border: 1px solid #002636;
+}
+
+.hidden_notification {
+  color: #93dcda;
+  background: rgba(0, 38, 54, 50);
+  width: 260px;
+  height: 26px;
+  border-radius: 30px;
+  margin-left: 63px;
+  padding: 5px;
+  display: none;
+  margin-bottom: 10px;
+}
+
+#enter_Y ::placeholder {
+  color: #002636;
+  font-size: 14px;
+}
+
+.enter_R {
+  margin-right: 20px;
+}
+
+#submit_button {
+  position: absolute;
+  margin-left: 10%;
+  color: #002636;
+  font-size: 14px;
+  border-radius: 30px;
+  background: rgba(0, 38, 54, 0.1);
+  border: 1px solid #002636;
+  width: 260px;
+  height: auto;
+}
+
+#table {
+  width: 470px;
+  font-size: 18px;
+  padding: 15px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.45);
+  position: relative;
+}
+
+#table td {
+  padding-right: 20px;
+}
